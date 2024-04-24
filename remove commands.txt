@@ -1,0 +1,10 @@
+You will need to run this command to provide the input file for the remove script:
+
+./remove.py input_file.txt
+ in the linux shell
+
+You can also use 
+
+cat nfa_description.txt | python e_nfa_conversion.py
+
+to direct file input to the command line of the linux shell

@@ -1,0 +1,5 @@
+After you convert the script into an executable, run it in the linux shell using this command:
+
+./simulate
+
+the worded part should be the name of the executable.

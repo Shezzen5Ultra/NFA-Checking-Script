@@ -1,0 +1,14 @@
+To Make the Script Executable: In the terminal, navigate to the directory containing the script and run the following command to make it executable
+
+chmod +x simulate.py
+
+Alternatively- you can install pyinstaller using the following command then use it to do the conversion:
+
+pip install pyinstaller
+
+then navigate to the directory with your python script and execute the following command:
+
+pyinstaller --onefile simulate.py
+
+
+

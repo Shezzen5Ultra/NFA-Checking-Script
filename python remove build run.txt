@@ -1,0 +1,16 @@
+Make the remove.py script executable in linux shell: In the terminal, navigate to the directory containing the script and run the following command using bash shell to make it executable-
+
+chmod +x remove.py
+
+alternatively, you can use the python terminal to run this command to convert it into an executable:
+
+start by installing pyinstaller
+
+pip install pyinstaller
+
+Then continue to the conversion process using the command
+
+pyinstaller --onefile nfa_converter.py
+
+
+This file can then be run from the linux shell as required
